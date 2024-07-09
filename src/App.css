@@ -1,0 +1,452 @@
+/* Beranda.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #ffffff; 
+  padding: 10px 0; 
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 250px;
+  height: 40px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li button {
+  background: none;
+  border: none;
+  color: #151414;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu ul li button:hover {
+  text-decoration: underline;
+}
+
+.tbl-biru {
+  background-color: #62c16d;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tbl-biru:hover {
+  background-color: #007aff;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-image: url(bac2.jpg);
+  background-size: cover; 
+  height: 300px;
+}
+
+.marquee h2 {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+  color: #f4f4f4;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.makan {
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #9be394;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+.sami {
+  padding-top: -50px;
+}
+
+.box .gambar {
+  float: right;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.bpk {
+  float: right;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #007aff;
+  width: 260px;
+  height: 140px;
+  padding: 20px;
+  margin-top: 45px;
+  margin-right: -300px;
+}
+
+.box .gmb{
+  float: left;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.boxi {
+  margin-top: 200px;
+  float: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #007aff;
+  width: 300px;
+  height: 140px;
+  padding: 20px;
+  margin-right: -300px;
+  
+}
+
+.macan{
+  margin-top: 500px;
+  text-align: left;
+}
+/* Pendaftaran CSS */
+
+.pendaftaran-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.goa {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.goa h1, .goa h2, .goa p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.goa h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+.goa h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.goa p {
+  font-size: 16px;
+  color: #666;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin-bottom: 20px;
+}
+
+.remember-forgot label input {
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  color: #4dbe56;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background: #8ce551;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #72edf2;
+}
+
+.register-link {
+  text-align: center;
+  font-size: 14.5px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* Kontak.css */
+
+/* Kontak.css */
+
+/* Style untuk header */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container h1 {
+  font-size: 36px;
+  color: #071952; /* Warna teks */
+}
+
+.container p {
+  font-size: 18px;
+  color: #333; /* Warna teks */
+  margin-top: 20px;
+}
+
+/* Style untuk bagian utama */
+main {
+  background-color: #f0f0f0; /* Warna latar belakang */
+  padding: 40px 0;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  color: #071952; 
+}
+
+.contact-info p {
+  font-size: 18px;
+  color: #333; 
+}
+
+.contact-info a {
+  color: #071952; 
+}
+
+/*  bagian visi */
+.vision {
+  background-color: #62ac40; 
+  color: #fff; 
+  padding: 60px 0;
+  text-align: center;
+}
+
+.vision h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.vision p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+/*fisi*/
+.visi {
+  background-image: url('baac.jpg');
+  width: 1100px;
+  height: 300px;
+  background-size: cover;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.visi h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.visi p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.visi .misi {
+  margin-top: 40px;
+}
+
+
+/*fakultas*/
+.judul {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.judul h3 {
+  font-size: 36px;
+  color: #071952; 
+}
+
+.keterangan {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.keterangan p {
+  font-size: 18px;
+  color: #333; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Section fakultas */
+.fakultas-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+
+.ekonomi,
+.it,
+.kesehatan,
+.pertanian {
+  text-align: center;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.nama,
+.hitung,
+.mulai,
+.sama {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #071952; 
+}
+
+
+/*footer*/
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+
